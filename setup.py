@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='base-conversion-kit',
-    version='1.0.1',
+    name='base_conversion_kit',
+    version='1.0.0',
     packages=find_packages(),
     install_requires=[
         'markdown'

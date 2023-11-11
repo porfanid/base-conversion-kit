@@ -93,3 +93,17 @@ def subtract_numbers(a, b, base):
         return result_in_base
     except ValueError as e:
         return str(e)
+
+
+def multiply_numbers_same_base(num1, num2, base):
+    # Convert the numbers to integers in the specified base
+    int_num1 = int(num1, base)
+    int_num2 = int(num2, base)
+
+    # Perform multiplication
+    result = int_num1 * int_num2
+
+    # Convert the result to the original base
+    result_str = convert_to_base_n(result, base)
+
+    return result_str
