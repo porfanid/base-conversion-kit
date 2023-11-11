@@ -95,7 +95,13 @@ def subtract_numbers(a, b, base):
         return str(e)
 
 
-def multiply_numbers_same_base(num1, num2, base):
+def multiply_numbers(num1, num2, base):
+    """
+    :param a: string: first number to add
+    :param b: string: second number to add
+    :param base: int: the base the numbers are in
+    :return: string: the result in the required base
+    """
     # Convert the numbers to integers in the specified base
     int_num1 = int(num1, base)
     int_num2 = int(num2, base)
