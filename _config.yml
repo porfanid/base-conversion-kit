@@ -21,7 +21,7 @@
 title: Base-Conversion-Kit
 email: pavlos@orfanidis.net.gr
 description: >- # this means to ignore newlines until "baseurl:"
-  awesome python module for converting numbers to different bases and performing different operations with them
+  An awesome python module for converting numbers to different bases and performing different operations with them
 baseurl: "/base-conversion-kit" # the subpath of your site, e.g. /blog
 url: "https://porfanid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  porfanid
