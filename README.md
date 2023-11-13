@@ -23,8 +23,8 @@ from base_conversion_kit import convert_to_base_n, convert_base
 binary_result = convert_to_base_n(42, 2)
 print(f"Binary representation: {binary_result}")
 
-# Convert a hexadecimal number to octal
-octal_result = convert_base("1A", 8, 16)
+# Convert an octal number to hexadecimal
+octal_result = convert_base("10", 8, 16)
 print(f"Octal representation: {octal_result}")
 ```
 
