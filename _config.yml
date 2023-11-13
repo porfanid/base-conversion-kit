@@ -26,6 +26,11 @@ baseurl: "/base-conversion-kit" # the subpath of your site, e.g. /blog
 url: "https://porfanid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  porfanid
 
+header_pages:
+  - index.markdown
+  - about.markdown
+
+
 # Build settings
 theme: minima
 plugins:
