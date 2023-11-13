@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# Base-Conversion-Kit
-
 ### Welcome
 Welcome to the home page of Base-Conversion-Kit. Here, I am going to show you how to interact with this plugin and use it to make your life easier, especially if you are a person that has to deal with a lot of math opertions in different bases.
 
