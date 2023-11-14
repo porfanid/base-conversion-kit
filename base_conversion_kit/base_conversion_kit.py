@@ -29,18 +29,14 @@ def convert_base(number, from_base, to_base):
     :return: string: the number converted to the required base
     """
     if not (2 <= from_base <= 36) or not (2 <= to_base <= 36):
-        return "Base must be between 2 and 36 inclusive."
+        raise ValueError("Base must be between 2 and 36 inclusive.")
+    # Convert the number to base 10
+    decimal_number = int(str(number), from_base)
 
-    try:
-        # Convert the number to base 10
-        decimal_number = int(str(number), from_base)
+    # Convert the decimal number to the desired base
+    result = convert_to_base_n(decimal_number, to_base)
 
-        # Convert the decimal number to the desired base
-        result = convert_to_base_n(decimal_number, to_base)
-
-        return result
-    except ValueError:
-        return "Invalid input. Please check your input values."
+    return result
 
 
 # function to add 2 numbers of the same base
@@ -51,20 +47,17 @@ def add_numbers(a, b, base):
     :param base: int: the base the numbers are in
     :return: string: the result in the required base
     """
-    try:
-        # Convert the numbers to base 10
-        decimal_a = int(str(a), base)
-        decimal_b = int(str(b), base)
+    # Convert the numbers to base 10
+    decimal_a = int(str(a), base)
+    decimal_b = int(str(b), base)
 
-        # Add the decimal numbers
-        result = decimal_a + decimal_b
+    # Add the decimal numbers
+    result = decimal_a + decimal_b
 
-        # Convert the result back to the original base
-        result_in_base = convert_to_base_n(result, base)
+    # Convert the result back to the original base
+    result_in_base = convert_to_base_n(result, base)
 
-        return result_in_base
-    except ValueError:
-        return "Invalid input. Please check your input values."
+    return result_in_base
 
 
 # function to subtract 2 numbers on the same base
@@ -75,30 +68,27 @@ def subtract_numbers(a, b, base):
     :param base: int: the base the numbers are in
     :return: string: the result in the required base
     """
-    try:
-        # Convert the numbers to base 10
-        decimal_a = int(str(a), base)
-        decimal_b = int(str(b), base)
+    # Convert the numbers to base 10
+    decimal_a = int(str(a), base)
+    decimal_b = int(str(b), base)
 
-        # Ensure a is greater than or equal to b to avoid negative results
-        if decimal_a < decimal_b:
-            raise ValueError("Subtraction would result in a negative number.")
+    # Ensure a is greater than or equal to b to avoid negative results
+    if decimal_a < decimal_b:
+        raise ValueError("Subtraction would result in a negative number.")
 
-        # Subtract the decimal numbers
-        result = decimal_a - decimal_b
+    # Subtract the decimal numbers
+    result = decimal_a - decimal_b
 
-        # Convert the result back to the original base
-        result_in_base = convert_to_base_n(result, base)
+    # Convert the result back to the original base
+    result_in_base = convert_to_base_n(result, base)
 
-        return result_in_base
-    except ValueError as e:
-        return str(e)
+    return result_in_base
 
 
 def multiply_numbers(num1, num2, base):
     """
-    :param a: string: first number to add
-    :param b: string: second number to add
+    :param num2: string: first number to add
+    :param num1: string: second number to add
     :param base: int: the base the numbers are in
     :return: string: the result in the required base
     """

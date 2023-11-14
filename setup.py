@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='base_conversion_kit',
-    version='1.0.3',
+    version='1.0.4',
     author="porfanid",
     author_email='pavlos@orfanidis.net.gr',
 
@@ -19,7 +19,7 @@ setup(
         'Funding': 'https://ko-fi.com/porfanid',
         'GitHub': 'https://github.com/porfanid/base-conversion-kit'
     },
-    description='A simple package to convert numbers to different bases and work with them',
+    description='Perform operations with numbers in different bases',
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords='base, conversion, kit, base, convert, numbers, add, multiply, subtract, '
