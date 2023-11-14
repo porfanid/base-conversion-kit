@@ -32,7 +32,7 @@ header_pages:
 
 
 # Build settings
-remote_theme: olivier3lanc/Jekyll-LibDoc
+theme: jekyll-readthedocs
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

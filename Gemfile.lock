@@ -143,6 +143,10 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-readthedocs (0.4.1)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.11)
+      jekyll-seo-tag (~> 2.5)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.6.1)
@@ -267,6 +271,7 @@ DEPENDENCIES
   github-pages (~> 228)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
+  jekyll-readthedocs
   minima (~> 2.5)
   public_suffix (= 4.0.7)
   tzinfo (>= 1, < 3)
