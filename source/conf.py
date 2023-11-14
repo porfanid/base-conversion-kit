@@ -39,7 +39,7 @@ html_theme_options = {
 
 
     'travis_button': False,
-    'codecov_button': False,
+    'codecov_button': True,
     'sidebar_includehidden': True,
     'show_related': False,
     'donate_url': 'https://ko-fi.com/porfanid',
