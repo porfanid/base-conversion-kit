@@ -6,9 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='base_conversion_kit',
-    version='1.0.5',
+    version='1.0.6',
     author="porfanid",
     author_email='pavlos@orfanidis.net.gr',
+
+    url='https://github.com/porfanid/base-conversion-kit',
+    homepage='https://base-conversion-kit.readthedocs.io/',
 
     packages=find_packages(),
     install_requires=[
@@ -17,8 +20,10 @@ setup(
     python_requires='>=3.6',
     project_urls={
         'Funding': 'https://ko-fi.com/porfanid',
-        'GitHub': 'https://github.com/porfanid/base-conversion-kit',
-        'Documentation': 'https://base-conversion-kit.readthedocs.io/'
+        'Source': 'https://github.com/porfanid/base-conversion-kit',
+        'Documentation': 'https://base-conversion-kit.readthedocs.io/',
+        'Tracker':"https://github.com/porfanid/base-conversion-kit/issues",
+        'Say Thanks!': 'http://saythanks.io/to/porfanid',
     },
     description='Perform operations with numbers in different bases',
     long_description=long_description,
