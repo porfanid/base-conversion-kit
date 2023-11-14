@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "base_conversion_kit"
-version = "1.0.4"
+version = "1.0.5"
 authors = [
   { name="Pavlos Orfanidis", email="pavlos@orfanidis.net.gr" },
 ]
@@ -22,3 +22,4 @@ classifiers = [
 "Bug Tracker" = "https://github.com/porfanid/numberConverter/issues"
 Funding = "https://ko-fi.com/porfanid"
 GitHub = "https://github.com/porfanid/base-conversion-kit"
+Documentation =  "https://base-conversion-kit.readthedocs.io/en/latest/"
