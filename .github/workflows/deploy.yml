@@ -26,7 +26,7 @@ jobs:
         pip install sphinx sphinx_rtd_theme myst_parser  # Replace with your requirements file if needed
 
     - name: Build documentation
-      run: sphinx-build . _build  # Replace with your Sphinx build command
+      run: make html  # Replace with your Sphinx build command
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -34,5 +34,5 @@ jobs:
       with:
         publish_branch: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: _build/
+        publish_dir: build/html
         force_orphan: true
