@@ -18,6 +18,8 @@ How to use
 This module has many different uses. The main functions are:
 
 .. code-block:: python
+    :linenos:
+    
     convert_to_base_n(decimal_number, to_base)
     convert_base(number, from_base, to_base)
     add_numbers(a, b, base)
