@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - docs  # Change this to your main branch
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -24,7 +26,7 @@ jobs:
         pip install sphinx sphinx_rtd_theme myst_parser  # Replace with your requirements file if needed
 
     - name: Build documentation
-      run: sphinx-build doc _build  # Replace with your Sphinx build command
+      run: sphinx-build . _build  # Replace with your Sphinx build command
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
