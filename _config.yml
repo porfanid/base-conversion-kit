@@ -32,7 +32,8 @@ header_pages:
 
 
 # Build settings
-theme: jekyll-readthedocs
+#theme: jekyll-readthedocs
+remote_theme: pawamoy/jekyll-readthedocs
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
