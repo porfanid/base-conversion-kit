@@ -6,7 +6,7 @@ python:
   - "3.9"
 
 install:
-  - pip install unittest  # Replace with the name of your requirements file if you have one
+  - pip install --upgrade pip  # Replace with the name of your requirements file if you have one
 
 script:
   - python -m unittest discover tests
