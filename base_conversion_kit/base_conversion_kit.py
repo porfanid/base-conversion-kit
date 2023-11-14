@@ -87,8 +87,8 @@ def subtract_numbers(a, b, base):
 
 def multiply_numbers(num1, num2, base):
     """
-    :param a: string: first number to add
-    :param b: string: second number to add
+    :param num2: string: first number to add
+    :param num1: string: second number to add
     :param base: int: the base the numbers are in
     :return: string: the result in the required base
     """

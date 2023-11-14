@@ -73,10 +73,14 @@ binary_sum = add_numbers(
 print(f"Binary sum: {binary_sum}")
 ```
 
+# Read The Docs
+
+More info can be found [here](https://base-conversion-kit.readthedocs.io)
+
 ## Contributing
 
 Feel free to contribute to the development of the Base Conversion Kit. If you encounter issues, have suggestions, or want to add features, please submit a pull request or open an issue on the [GitHub repository](https://github.com/porfanid/base-conversion-kit).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/porfanid/base-conversion-kit/blob/master/LICENSE) file for details.
