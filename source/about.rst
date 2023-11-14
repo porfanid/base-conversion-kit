@@ -4,10 +4,7 @@ About
 =====
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   ../index
+ :numbered:
 
 
 This module was created by `Pavlos Orfanidis <https://github.com/porfanid>`__.

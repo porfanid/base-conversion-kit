@@ -23,13 +23,37 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = "alabaster"
 html_static_path = ['_static']
 master_doc = 'index'
 # conf.py
 
-# ...
+
+html_theme_options = {
+    'logo': 'logo.jpg',
+    'description': 'base-conversion-kit: Perform operations with numbers in different bases',
+    'github_user': 'porfanid',
+    'github_repo': 'base-conversion-kit',
+    'github_banner': True,
+    'github_button': True,
+
+
+    'travis_button': False,
+    'codecov_button': False,
+    'sidebar_includehidden': True,
+    'show_related': False,
+    'donate_url': 'https://ko-fi.com/porfanid',
+    'show_powered_by': False,
+
+}
+
 
 html_sidebars = {
-    '**': ['sidebar.html'],
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        #'searchbox.html',
+        'donate.html',
+    ]
 }
