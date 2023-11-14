@@ -33,6 +33,7 @@ header_pages:
 
 # Build settings
 remote_theme: olivier3lanc/Jekyll-LibDoc
+theme: olivier3lanc/Jekyll-LibDoc
 plugins:
   - jekyll-feed
 
