@@ -6,7 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='base_conversion_kit',
-    version='1.0.6',
+    version='1.0.7',
+
     author="porfanid",
     author_email='pavlos@orfanidis.net.gr',
 
@@ -22,8 +23,8 @@ setup(
         'Funding': 'https://ko-fi.com/porfanid',
         'Source': 'https://github.com/porfanid/base-conversion-kit',
         'Documentation': 'https://base-conversion-kit.readthedocs.io/',
-        'Tracker':"https://github.com/porfanid/base-conversion-kit/issues",
-        'Say Thanks!': 'http://saythanks.io/to/porfanid',
+        'Tracker': "https://github.com/porfanid/base-conversion-kit/issues",
+        'Say Thanks!': 'https://saythanks.io/to/porfanid',
     },
     description='Perform operations with numbers in different bases',
     long_description=long_description,
