@@ -7,6 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='base_conversion_kit',
     version='1.0.7',
+
     author="porfanid",
     author_email='pavlos@orfanidis.net.gr',
 
