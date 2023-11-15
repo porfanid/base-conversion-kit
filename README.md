@@ -1,6 +1,9 @@
 # Base Conversion Kit
 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/porfanid)
+[![CodeCoverage](https://github.com/porfanid/base-conversion-kit/actions/workflows/codecov.yml/badge.svg)](https://github.com/porfanid/base-conversion-kit/actions/workflows/codecov.yml)
+[![Deploy static content to Pages](https://github.com/porfanid/base-conversion-kit/actions/workflows/deploy.yml/badge.svg)](https://github.com/porfanid/base-conversion-kit/actions/workflows/deploy.yml)
+[![Continuous Integrations](https://github.com/porfanid/base-conversion-kit/actions/workflows/main.yml/badge.svg)](https://github.com/porfanid/base-conversion-kit/actions/workflows/main.yml)
 [![codecov](https://codecov.io/github/porfanid/base-conversion-kit/graph/badge.svg?token=T9DNofKwo2)](https://codecov.io/gh/porfanid/base-conversion-kit)
 
 
