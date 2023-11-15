@@ -8,5 +8,4 @@ python:
 install:
   - pip install --upgrade pip  # Replace with the name of your requirements file if you have one
 
-script:
-  - python -m unittest discover tests
+script: python -m unittest discover tests
