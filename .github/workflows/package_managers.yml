@@ -30,11 +30,3 @@ jobs:
       run: |
         python setup.py sdist bdist_wheel
         twine upload dist/*
-
-    - name: Build and upload to GitHub Packages
-      env:
-        TWINE_USERNAME: __token__
-        TWINE_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        python setup.py sdist bdist_wheel
-        twine upload --repository-url https://pypi.pkg.github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}/ dist/*
